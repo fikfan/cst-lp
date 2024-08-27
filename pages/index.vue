@@ -313,19 +313,4 @@ const services = ref([
   { id:3, name: 'Online Application', desc: 'Our expert team delivers top-tier iOS and Android apps using cutting-edge tech and proven strategies. Proficient in Swift, Objective-C, Java, Kotlin, and cross-platform frameworks, we create feature-rich, user-centric mobile solutions that exceed client expectations', icon: TabletSmartphone }
 ])
 
-//typewriter effect
-const windowWidth = ref(window.innerWidth);
-
-const updateWidth = () => {
-  windowWidth.value = window.innerWidth;
-};
-
-onMounted(() => {
-  window.addEventListener('resize', updateWidth);
-});
-
-onUnmounted(() => {
-  window.removeEventListener('resize', updateWidth);
-});
-
 </script>

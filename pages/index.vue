@@ -3,7 +3,7 @@
     <header class="flex h-20 border-b border-rose-200 py-6">
       <div class="w-full container flex items-center justify-between bg-background px-4 md:px-6">
         <a href="#" class="flex items-center">
-          <img :src="Logo" alt="" class="max-w-[205px]">
+          <img :src="Logo" alt="" class="max-w-[160px] md:max-w-[205px]">
         </a>
         <nav class="hidden items-center gap-6 lg:flex">
           <a href="#" class="text-sm font-medium text-muted-foreground hover:text-foreground">
@@ -22,7 +22,7 @@
             Careers
           </a>
         </nav>
-        <Button class="hidden lg:inline-flex">Work with us</Button>
+        <Button class="inline-flex">Work with us</Button>
       </div>
     </header>
 
@@ -261,7 +261,7 @@
 
     <footer class="w-full border-t border-rose-200 py-4 px-4 md:px-6">
       <div class="container mx-auto flex flex-col items-center text-center md:text-right justify-between gap-4 sm:flex-row">
-        <p class="text-sm text-muted-foreground">&copy; {{ new Date().getFullYear() }} // FOR CORE SYSTEM TECHNOLOGIES SDN. BHD. ONLY //</p>
+        <p class="text-sm text-muted-foreground">&copy; {{ new Date().getFullYear() }} UNOFFICIAL CONCEPT REDESIGN - FOR JOB APPLICATION PURPOSES ONLY</p>
         <a href="https://github.com/fikfan/cst-lp" target="_blank" class="text-red-500 underline text-sm text-muted-foreground">Repository Link</a>
       </div>
       
